@@ -9,7 +9,6 @@ form {
     border-radius: 20px;
     border: 1px solid rgb(199, 199, 199);
     box-shadow: 0px 0.1px 2px 1.2px rgba(32, 32, 32, 0.356);
-
 }
 
 body {
@@ -21,17 +20,23 @@ body {
 
 .div-3 {
     display: flex;
+    margin-top: -15px;
     gap: 10px;
     justify-content: center;
 
     div {
-        background-color: rgb(211, 208, 208);
+        background-color: rgb(245, 245, 245);
+        border-bottom: 1pt solid rgb(187, 187, 187);
         padding: 10px;
-        border-radius: 10px;
+        border-radius: 2px;
         width: 100px;
         display: flex;
         justify-content: center;
         cursor: pointer;
+    }
+    img{
+        width: 25%;
+        height: 100%;
     }
 }
 
@@ -44,10 +49,14 @@ body {
         padding: 8px;
         border-radius: 10px;
         outline: none;
-        border: 1px solid gray;
+        border: 1pt solid rgb(226, 226, 226);
         box-shadow: 1px 2px 5px 1px gray;
         margin-top: 5px;
         font-size: 15px;
+    }
+    label{
+        font-weight: bolder;
+        font-size: 14px;
     }
 }
 
@@ -61,9 +70,13 @@ body {
         padding: 8px;
         border-radius: 10px;
         outline: none;
-        border: 1px solid gray;
+        border: 1pt solid rgb(226, 226, 226);
         box-shadow: 1px 2px 5px 1px gray;
         font-size: 15px;
+    }
+    label{
+        font-weight: bolder;
+        font-size: 14px;
     }
 }
 
@@ -86,8 +99,29 @@ button:hover{
 }
 .title{
     text-align: center;
+    h2{
+        margin-top: 20px;
+        font-weight: 500;
+    }
     h4{
         font-weight: 300;
         margin-top: -20px;
+    }
+}
+.div-logo-world{
+    width: 40px;
+    margin-left: 170px;
+    margin-top: 40px;
+    border-radius: 12px;
+    border-bottom: 1pt solid rgb(200, 200, 200);
+    border-left: 1pt solid rgb(225, 225, 225);
+    border-right: 1pt solid rgb(225, 225, 225);
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 1.5px 3px 0.2px rgb(230, 230, 230);
+    img{
+        width: 100%;
+        display: flex;
+        border-radius: 20px;
     }
 }
