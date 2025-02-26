@@ -90,9 +90,7 @@ button {
     border: none;
     transition: 0.5s;
     cursor: pointer;
-    border: 1px solid transparent;
-    border-bottom: 2.5pt solid #412e8a;
-    border-top: 1.5pt solid #8f73ff;
+    border: 1px solid transparent;  
 }
 
 button:hover{
