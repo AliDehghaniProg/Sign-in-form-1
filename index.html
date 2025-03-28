@@ -10,42 +10,32 @@
 
 <body>
     <form>
-        <div class="div-logo-world"><img src="logo world.png"></div>
-        <div class="title">
-            <h2>Wlecome Back</h2>
-            <h4>Please enter your information</h4>
+        <div class="img-world">
+            <img src="logo world.png" alt="world">
         </div>
-        <br>
-        <div class="div-3">
-            <div><img src="logo google.webp" alt="Google__G__logo"></div>
-            <div><img src="logo apple.svg" alt="Apple"></div>
-            <div><img src="logo facebook.svg" alt="Facebook"></div>
+        <div class="text-welcome">
+            <h1>Welcome Back</h1>
+            <h3>Please Enter your information</h3>
         </div>
-        <div style="display: flex;justify-content: center;margin-top: 20px;">or</div>
-        <div class="email-inputs">
-            <label for="email">Email adress</label>
-            <input type="email" placeholder="Enter your email">
+        <div class="og-div-logos">
+            <a href="https://www.google.com/"><div><img src="logo google.webp" alt="google"></div></a>
+            <a href="https://www.apple.com/"><div><img src="logo apple.svg" alt="apple"></div></a>
+            <a href="http://www.facebook.com/"><div><img src="logo facebook.svg" alt="facebook"></div></a>
         </div>
-        <div class="password-inputs">
-            <label for="password">Password</label>
-            <div class="password-input">
-                <input type="password" placeholder="Enter your password">
-                <img id="password-eye-image" src="./eye.png" width="100" height="100" alt="password-eye-image"/>
+        <div class="text-or">or</div>
+        <div style="margin-top: 2%;">
+            <div class="email-input">
+                <label for="email">Email</label>
+                <input type="email" placeholder="Enter your email adress">
             </div>
-
+            <div class="password-input">
+                <label for="password">Password</label>
+                <input type="password" placeholder="Enter your password">
+            </div>
         </div>
-        <div class="checkbox">
-            <input type="checkbox">
-            &nbsp;
-            <h5 style="font-weight: 500;">Remember me</h6>
-        </div>
-        <br>
-        <button>Sign in</button>
-        <div class="foter">
-            <h5 style="font-weight:500;">Don't have an account?</h6>
-                <h5 style="font-weight:500;" class="h6foter">&nbsp;Create account</h6>
+        <div class="button-login">
+            <button type="submit">Login</button>
         </div>
     </form>
 </body>
-
 </html>
