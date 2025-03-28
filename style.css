@@ -14,12 +14,79 @@ form {
     border-radius: 20px;
     box-shadow: -0.02pt 1pt 2pt 2pt rgb(218, 218, 218);
     background-color: white;
-    width: 80%;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 400px) {
+    form {
+        width: 85%;
+    }
+    .text-foter h5 {
+        margin-bottom: 10px;
+    }
+    .og-div-logos {
+        gap: 13px;
+    }
+}
+
+@media (min-width: 650px) {
+    form {
+        width: 60%;
+    }
+    .text-foter h5 {
+        font-size: 15px;
+        margin-bottom: 14px;
+    }
+    .og-div-logos {
+        gap: 13px;
+    }
+}
+
+@media (min-width: 700px) {
+    form {
+        width: 50%;
+    }
+    .text-foter h5 {
+        font-size: 16px;
+        margin-bottom: 14px;
+    }
+    .og-div-logos {
+        gap: 13px;
+    }
+}
+
+@media (min-width: 900px) {
+    form {
+        width: 40%;
+    }
+    .og-div-logos {
+        gap: 13px;
+    }
+}
+
+@media (min-width: 1050px) {
+    form {
+        width: 35%;
+    }
+    .og-div-logos {
+        gap: 13px;
+    }
+}
+
+@media (min-width: 1180px) {
+    form {
+        width: 35%;
+    }
+    .og-div-logos {
+        gap: 13px;
+    }
+}
+
+@media (min-width: 1320px) {
     form {
         width: 25%;
+    }
+    .og-div-logos {
+        gap: 13px;
     }
 }
 
@@ -56,7 +123,6 @@ form {
     display: flex;
     justify-content: center;
     width: 100%;
-    gap: 10px;
     margin-top: 6%;
     div {
         display: flex;
@@ -138,13 +204,19 @@ form {
         outline: none;
         cursor: pointer;
         font-size: 105%;
-        transition: 0.3s;
         background: linear-gradient(#7456eb94,#7456ebb2,#7456ebd0,#7a5ee7);
+        border: none;
+        box-shadow: 0pt 1pt 1pt 1pt #644cc4;
     }
     button:hover {
         background: transparent;
         color:#8606ee;
-        border: 1pt solid #8606ee;
-        box-shadow: 0pt 0.5pt 1pt 1pt #8606ee;
+        box-shadow: 0pt none 1pt 1pt #8606ee;
     }
+}
+
+.text-foter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
